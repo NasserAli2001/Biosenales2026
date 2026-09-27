@@ -6,7 +6,7 @@
 
 ## Parte 2.5: Comparación estadística entre bradicardia sinusal y fibrilación auricular
 
-Notebook: `Entrega2_Arritmias_Chapman.ipynb`
+Este README es el resumen de la práctica. El desarrollo completo, con el código, las gráficas y el análisis, está en el notebook `Entrega2_Arritmias_Chapman.ipynb`.
 
 ### Resumen
 
@@ -39,21 +39,9 @@ Las seis diferencias salieron significativas, también con Bonferroni: el p-valo
 - La media, el máximo y el mínimo cambian un poco entre grupos. La desviación estándar y el RMS prácticamente no cambian. Estas medidas describen la amplitud de la señal, pero dicen poco sobre el ritmo.
 - Limitaciones: los pacientes con AFIB son mayores que los de SB, muchos tienen otras condiciones cardiacas y solo analizamos la derivación II.
 
-### Cómo ejecutar
+### Datos
 
-Los datos no están en el repositorio porque pesan mucho. Se descargan de Figshare: https://figshare.com/collections/ChapmanECG/4560497. La carpeta de datos debe quedar así:
-
-```
-CARPETA/
-├── Diagnostics.xlsx
-├── RhythmNames.xlsx
-├── ECGDataDenoised/ECGDataDenoised/*.csv   (señales filtradas, las del análisis)
-└── ECGData/ECGData/*.csv                   (señales crudas, solo para comparar)
-```
-
-1. Instalar las librerías: `pip install numpy pandas scipy matplotlib openpyxl`. `openpyxl` es la que usa pandas para leer los `.xlsx`.
-2. En la celda de configuración del notebook, cambiar `CARPETA` por la ruta donde quedaron los datos.
-3. Ejecutar todo (Kernel → Restart & Run All). El cálculo de características recorre los 5669 archivos y puede tardar unos minutos.
+Las señales de la base (carpetas `ECGData` y `ECGDataDenoised`, unos 8.5 GB) no se subieron al repositorio porque superan el tamaño que permite GitHub.
 
 ## Referencia principal
 
