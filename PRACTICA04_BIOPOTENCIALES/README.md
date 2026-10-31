@@ -28,7 +28,5 @@ Registramos un electrocardiograma (ECG) en reposo con el triángulo de Einthoven
 ### Archivos
 
 - "Informe_ECG_EMG_Biosenales.ipynb": notebook con todo el informe.
-- "lab_bioseñales/EMG/EMG_NASSER.txt": datos del sEMG.
-- "lab_bioseñales/EMG/Figure_1.png": gráfica del sEMG guardada en la práctica.
 
 Las referencias están al final del notebook.
