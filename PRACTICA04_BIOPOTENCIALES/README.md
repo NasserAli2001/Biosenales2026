@@ -8,7 +8,7 @@ Este README es el resumen de la práctica. El desarrollo completo, con el códig
 
 ### Resumen
 
-Registramos un electrocardiograma (ECG) en reposo con el triángulo de Einthoven y una electromiografía de superficie (sEMG) del antebrazo con contracciones repetidas. Usamos el módulo SHIELD-EKG-EMG de Olimex sobre un Arduino UNO ("SerialBiosenales.ino") y pasamos los datos al computador con "PySerial.py", 5000 muestras por registro.
+Registramos un electrocardiograma (ECG) en reposo con el triángulo de Einthoven y una electromiografía de superficie (sEMG) del antebrazo con contracciones repetidas. Usamos el módulo SHIELD-EKG-EMG de Olimex sobre un Arduino UNO y pasamos los datos al computador con los códigos de adquisición entregados por la profesora, 5000 muestras por registro.
 
 **Teoría (puntos 5.1 a 5.3).** Hicimos el esquema de las etapas del registro de biopotenciales, una tabla con las fuentes de ruido (estáticas o variantes y cómo se controlan) y la discusión del acoplamiento piel-electrodo.
 
@@ -28,8 +28,6 @@ Registramos un electrocardiograma (ECG) en reposo con el triángulo de Einthoven
 ### Archivos
 
 - "Informe_ECG_EMG_Biosenales.ipynb": notebook con todo el informe.
-- "SerialBiosenales.ino": código del Arduino para leer el ADC y enviar los datos.
-- "PySerial.py": script para recibir los datos por el puerto serial y guardarlos.
 - "lab_bioseñales/EMG/EMG_NASSER.txt": datos del sEMG.
 - "lab_bioseñales/EMG/Figure_1.png": gráfica del sEMG guardada en la práctica.
 
